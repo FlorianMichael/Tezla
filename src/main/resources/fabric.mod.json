@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "tezla",
+  "version": "${version}",
+
+  "name": "Tezla",
+  "description": "Fabric Injection Mod",
+  "authors": [
+    "Flori2007",
+    "CrashedLife",
+    "ExampleDude"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FlorianMichael/Tezla",
+    "sources": "https://github.com/FlorianMichael/Tezla"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tezla/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "tezla.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
