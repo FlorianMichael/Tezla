@@ -4,7 +4,12 @@
   "package": "net.tezla.injection.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinMinecraftClient"
+    "MixinGameRenderer",
+    "MixinInGameHud",
+    "MixinKeyboard",
+    "MixinMinecraftClient",
+    "MixinScreen",
+    "MixinTitleScreen"
   ],
   "injectors": {
     "defaultRequire": 1
